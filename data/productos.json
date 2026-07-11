@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "nombre": "Producto 1",
+    "precio": 18750,
+    "img": "img/Suprema Jamon muzza morron.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Producto 2",
+    "precio": 19750,
+    "img": "img/Suprema Napolitana.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Producto 3",
+    "precio": 20750,
+    "img": "img/Suprema Roquefor.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Producto 4",
+    "precio": 16750,
+    "img": "img/Suprema Pizza.jpg"
+  }
+]

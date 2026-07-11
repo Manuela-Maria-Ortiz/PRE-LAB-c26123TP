@@ -14,9 +14,18 @@
       
       <nav class="header-nav">
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-          <li><a href="./carrito.html">Carrito</a></li>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+          <!--👉 Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./carrito.html" CLASS="Carrito-icono">
+               🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -47,5 +56,8 @@
         </ul>
       </nav>
     </footer>
+        <!--👉 Agregar type module y enlace al contacto.js -->
+    <script type="module" src="../js/contacto.js"></script>
+
   </body>
 </html>

@@ -14,8 +14,14 @@
       <nav class="header-nav">
         <ul>
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./pages/contacto.html">Contacto</a></li>
-          <li><a href="./pages/carrito.html">Carrito</a></li>
+          <li>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+             >🛒 <span id="contador-carrito">0</span></a>
+
+          </li>
         </ul>
       </nav>
     </header>
@@ -30,8 +36,10 @@
       </p>
       <section>
         <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
-        <div class="contenedor-tarjetas">
-          <article class="card text-secondary">
+                <!--👉 Agregar un ID al div, ahora lo necesitamos -->
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+
+          <!-- <article class="card text-secondary">
             <img src="./img/Suprema Roquefor.jpg" alt="Suprema Roquegort" />
             <h3>Suprema Roquefort + 1 guarnicion</h3>
             <p>
@@ -82,9 +90,11 @@
             </p>
             <p>$ 16.750</p>
             <button class="btn-bg-secondary text- dark">
-              Agregar al carrito
-            </button>
-          </article>
+              Agregar al carrito -->
+              
+           <!--  </button>
+          </article> --> 
+          
         </div>
       </section>
     </main>
@@ -98,5 +108,7 @@
         </ul>
       </nav>
     </footer>
+    <!--👉 Agregar type module y enlace al index.js -->
+    <script src="./js/index.js" type="module"></script
   </body>
 </html>
